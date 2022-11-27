@@ -13,6 +13,7 @@
 		A1CA42692933646A00189F74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CA42672933646A00189F74 /* Main.storyboard */; };
 		A1CA426B2933646B00189F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1CA426A2933646B00189F74 /* Assets.xcassets */; };
 		A1CA426E2933646B00189F74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CA426C2933646B00189F74 /* LaunchScreen.storyboard */; };
+		A1CA42762933694700189F74 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CA42752933694700189F74 /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A1CA426A2933646B00189F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1CA426D2933646B00189F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1CA426F2933646B00189F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1CA42752933694700189F74 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				A1CA42612933646A00189F74 /* AppDelegate.swift */,
 				A1CA42632933646A00189F74 /* SceneDelegate.swift */,
 				A1CA42652933646A00189F74 /* ViewController.swift */,
+				A1CA42752933694700189F74 /* Quote.swift */,
 				A1CA42672933646A00189F74 /* Main.storyboard */,
 				A1CA426A2933646B00189F74 /* Assets.xcassets */,
 				A1CA426C2933646B00189F74 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1CA42762933694700189F74 /* Quote.swift in Sources */,
 				A1CA42662933646A00189F74 /* ViewController.swift in Sources */,
 				A1CA42622933646A00189F74 /* AppDelegate.swift in Sources */,
 				A1CA42642933646A00189F74 /* SceneDelegate.swift in Sources */,
@@ -304,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
